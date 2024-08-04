@@ -1,0 +1,48 @@
+.education-card-container {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.education-card-inner-padding {
+   margin-right: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.education-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.education-header {
+    display: flex;
+    align-items: center;
+}
+
+.education-header-name {
+    margin-left: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: #2E2E48;
+    font-size: 13px;
+}
+
+.education-header-title {
+    margin-top: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: #2E2E48;
+    font-size: 13px;
+}
+
+.education-mark{
+    margin-top: 5px;
+    color: #79819A;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}

@@ -1,0 +1,14 @@
+.skill-container {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    gap: 16px;
+    display: flex;
+    border-radius: 8px;
+}
+
+
+.skill-container-chip:hover {
+    border-width: 2px;
+    border-color: #0056b3;
+}

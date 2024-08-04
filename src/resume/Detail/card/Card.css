@@ -1,0 +1,56 @@
+.card-container {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 16px; 
+    
+  }
+  
+  .card-inner-padding {
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+.card-image{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.cart-content-title {
+    color: #2E2E48;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500; 
+    font-size: 15px;
+}
+
+.cart-content-content {
+    margin-top: 5px;
+    color: #79819A;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 13px;
+}
+
+.card-link-section {
+    display: flex;
+    margin-top: -20px;
+    flex: 1;
+}
+
+.card-link-image {
+    width: 20px;
+    height: 20px;
+}
+.card-link {
+    color: #516CF7;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500; 
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}

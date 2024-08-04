@@ -1,0 +1,46 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 100vh;
+}
+
+.left {
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.right {
+  padding: 20px;
+  background-color: #F7F9FC;
+  overflow-y: auto;
+  height: 100vh;
+  scrollbar-width: none;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 200vh; 
+}
+
+
+/* SlideIn.css */
+
+.slide-in-container {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.slide-in-container.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}

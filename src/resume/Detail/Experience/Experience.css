@@ -1,0 +1,55 @@
+.experience-container {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    gap: 16px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.experience-card {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.experience-image {
+    width: 50px;
+    height: 50px;
+}
+
+.experiecen-company-content {
+    margin-left: 15px;
+    align-content: center;
+}
+
+.experience-company-role  {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400; 
+    color: #79819A;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+
+.experience-company-name  {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500; 
+    color: #2E2E48;
+    font-size: 14px;
+}
+.experience-left {
+    display: flex;
+}
+
+.experience-right {
+    align-content: center;
+}
+
+.experience-card-duration {
+    color: #47516B;
+}

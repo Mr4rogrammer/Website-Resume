@@ -1,0 +1,37 @@
+.intro-black{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.intro-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  .intro-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Horizontally center the child */
+    height: 100vh; 
+  }
+
+  .red-text {
+    color: red;
+  }
+
+  .count-down{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #E2E6EE;
+  }

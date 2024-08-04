@@ -1,0 +1,132 @@
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.profile-developer {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 16;
+  margin-bottom: 8px;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #A478E8 0%, #516CF7 100%);
+  -webkit-background-clip: text;
+  /* For WebKit-based browsers */
+  -webkit-text-fill-color: transparent;
+  /* Make text color transparent */
+  background-clip: text;
+  /* For other browsers */
+  color: transparent;
+  /* Fallback for browsers that do not support background-clip: text */
+}
+
+
+.quote {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #47516B;
+}
+
+hr.thin-line {
+  border: 0;
+  height: 0.5px;
+  background: #E2E6EE;
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+
+
+.info-container {
+  display: flex;
+}
+
+.info-text {
+  margin-left: 10px;
+}
+
+.social-media-icon {
+  width: 30px;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  height: 30px;
+}
+
+.info-title-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400; 
+  color: #79819A;
+  font-size: 12px;
+}
+
+
+.info-content-text {
+  margin-top: 3px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500; 
+  color: #47516B;
+  font-size: 13px;
+}
+
+.info-space {
+  margin-top: 20px;
+}
+
+
+.profile-section-title {
+  color: #79819A;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400; 
+  font-size: 12px;
+}
+
+
+.lan-container {
+  display: flex;
+}
+
+.lan-social-media-icon {
+  width: 30px;
+  border-radius: 50%;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  height: 30px;
+}
+
+.lan-title-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400; 
+  color: #79819A;
+  font-size: 12px;
+}
+
+
+.lan-content-text {
+  margin-top: 3px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500; 
+  color: #47516B;
+  font-size: 13px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-pointer:hover {
+  color: #516CF7;
+}
