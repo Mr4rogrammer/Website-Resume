@@ -18,3 +18,35 @@
     display: flex;
     flex-direction: row;
   }
+
+
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1.5 s ease-in-out;
+  }
+  
+
+  @keyframes drop {
+    from {
+      opacity: 0;
+      transform: translateY(-100px); /* Start position above */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* End position at normal place */
+    }
+  }
+  
+  .drop-animation {
+    animation: drop 1s ease-out; /* Adjust duration and easing as needed */
+  }
+  

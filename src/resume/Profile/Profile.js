@@ -14,7 +14,7 @@ import Instagram from  "./images/instagram.svg"
 
 const Profile = () => {
   return (
-    <div className="profile">
+    <div className="profile drop-animation">
       <img src={profileImage} alt="Profile" className="profile-pic" />
       <h1 className='profile-name'>Krishna Kumar Eswaran</h1>
       <h2 className='profile-developer gradient-text'>Android Native Developer</h2>
@@ -57,18 +57,18 @@ const Profile = () => {
         <p className='profile-section-title'>Languages</p>
         <div className='info-space'> </div>
         <div className="lan-container">
-          <img src={English} alt="English" className="lan-social-media-icon" />
-          <div className="info-text">
-            <div className="lan-title-text">English</div>
-            <div className="lan-content-text">Professional working</div>
-          </div>
-        </div>
-        <div className='info-space'> </div>
-        <div className="lan-container">
           <img src={India} alt="India" className="lan-social-media-icon" />
           <div className="info-text">
             <div className="lan-title-text">Tamil</div>
             <div className="lan-content-text">Native</div>
+          </div>
+        </div>
+        <div className='info-space'> </div>
+        <div className="lan-container">
+          <img src={English} alt="English" className="lan-social-media-icon" />
+          <div className="info-text">
+            <div className="lan-title-text">English</div>
+            <div className="lan-content-text">Professional working</div>
           </div>
         </div>
       </div>

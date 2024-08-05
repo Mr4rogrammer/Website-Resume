@@ -13,6 +13,7 @@ import Education from './Educations/Education';
 import Montfort from './image/montfort-school.png';
 import Collage from "./image/collage.jpeg";
 import BannariSchool  from "./image/school-bannari.jpeg"
+import Qpi from "./image/qpi.png"
 
 const useStyles = makeStyles((theme) => ({
   timeline: {
@@ -68,7 +69,6 @@ const programmingSkills = [
   "JavaScript",
   "Java",
   "C++",
-  "C#",
   "SQL",
   "HTML/CSS",
   "React.js",
@@ -79,12 +79,13 @@ const programmingSkills = [
   "GitHub",
   "Firebase",
   "Realm",
+  "API"
 ];
 
-function Detail() {
+function Detail({state}) {
   const classes = useStyles();
   return (
-    <div>
+    <div className='drop-animation'>
       <Timeline className={classes.timeline}>
         <TimelineItem>
           <TimelineSeparator>
@@ -94,9 +95,9 @@ function Detail() {
           <TimelineContent className="custom-content">
             <p className='detail-title'>Company projects  </p>
             <div className='card-section-list'>
-              <Card title={"Zakya - Android"} content={"Zakya POS, a Point of Sale app for Android, simplifies your billing experience and enables you to process rapid checkouts from anywhere in your store."} image={Zoho} urlText={"Zakya POS - Point of Sale"} onclickUrl={"https://play.google.com/store/apps/details?id=com.zakya.pos&hl=en_IN"} />
-              <Card title={"Gobill - Android"} content={"GoBill is an add-on mobile/tablet billing app for GOFRUGAL RetailEasy. Instead of billing with computers, GOFRUGAL provides you the ease of billing."} image={Gofrugal} urlText={"GoBill POS - Point of Sale"} onclickUrl={"https://play.google.com/store/apps/details?id=com.gofrugal.sellquick&hl=en_IN"} />
-              <Card title={"ServeEasy GoBill"} content={"Introducing the ultimate mobile and tablet billing app for restaurants! Gofrugal understands that an easy intuitive mobile & tablet point of sale. is required for restaurants for faster checkouts."} image={Gofrugal} urlText={"ServeEasy GoBill"} onclickUrl={"https://play.google.com/store/apps/details?id=com.gofrugal.serveasy&hl=en_IN"} />
+              <Card title={"Zakya - Android"} content={"Zakya POS, a Point of Sale app for Android, simplifies your billing experience and enables you to process rapid checkouts from anywhere in your store."} image={Zoho} urlText={"Zakya POS - Point of Sale"} onclickUrl={"https://play.google.com/store/apps/details?id=com.zakya.pos&hl=en_IN"} moreInfo={true} state={state}/>
+              <Card title={"Gobill - Android"} content={"GoBill is an add-on mobile/tablet billing app for GOFRUGAL RetailEasy. Instead of billing with computers, GOFRUGAL provides you the ease of billing."} image={Gofrugal} urlText={"GoBill POS - Point of Sale"} onclickUrl={"https://play.google.com/store/apps/details?id=com.gofrugal.sellquick&hl=en_IN"} moreInfo={false} state={state}/>
+              <Card title={"ServeEasy GoBill"} content={"Introducing the ultimate mobile and tablet billing app for restaurants! Gofrugal understands that an easy intuitive mobile & tablet point of sale. is required for restaurants for faster checkouts."} image={Gofrugal} urlText={"ServeEasy GoBill"} onclickUrl={"https://play.google.com/store/apps/details?id=com.gofrugal.serveasy&hl=en_IN"} moreInfo={false} state={state}/>
             </div>
           </TimelineContent>
         </TimelineItem>
@@ -111,7 +112,22 @@ function Detail() {
 
             <div>
               <Experience image={ZohoLogo} role={"Android Developer"} company={"Zoho"} location={"Chennai, India"} duration={"July 2023 - Current"} />
-              <Experience image={GofrugalLogo} role={"Android Developer"} company={"Gofrugal"} location={"Chennai, India"} duration={"Aug 2022 - June 2023"} />
+              <Experience image={GofrugalLogo} role={"Android Developer"} company={"Gofrugal"} location={"Chennai, India"} duration={"Sep 2022 - June 2023"} />
+            </div>
+          </TimelineContent>
+        </TimelineItem>
+
+
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot className={classes.dot} />
+            <TimelineConnector className={classes.connector} />
+          </TimelineSeparator>
+          <TimelineContent className="custom-content">
+            <p className='detail-title'>Internship  </p>
+
+            <div>
+              <Experience image={Qpi} role={"Web Developer"} company={"Qpi Cloud"} location={"Bengaluru, India"} duration={"Aug 2022"} />
             </div>
           </TimelineContent>
         </TimelineItem>

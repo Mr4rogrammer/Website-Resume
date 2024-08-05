@@ -54,3 +54,33 @@
     margin-left: 10px;
     cursor: pointer;
 }
+
+.more-info {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500; 
+    font-size: 13px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(45deg, #1e00ff, #f7c6c7);
+      }
+      50% {
+        background: linear-gradient(45deg, #00ff22, #0cde6b);
+      }
+      100% {
+        background: linear-gradient(45deg, #f40000, #f7c6c7);
+      }
+  }
+  
+  .gradient-text-animation {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 1s ease infinite;
+  }

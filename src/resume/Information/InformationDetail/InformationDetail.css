@@ -1,0 +1,28 @@
+.content-list {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400; 
+    color: #2E2E48;
+    font-size: 12px;
+    letter-spacing: .8px;
+    padding: 5px;
+}
+
+.content-list-container {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+}
+
+.content-list-wrapper {
+    margin-left: 5px;
+}
+
+.content-list-title {
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 450;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #47516B;
+}
+
